@@ -23,5 +23,6 @@ int main(){
 	cout<<"Digite la calificacion de producto: "; cin>>EP;
 	CF= (EC*0.4)+(ED*0.35)+(EP*0.25);
 	cout<<nombre<<" su calificacion final es: "<<CF<<endl;*/
+	//
 
 
