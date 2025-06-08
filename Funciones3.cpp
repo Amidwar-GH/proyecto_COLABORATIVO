@@ -1,3 +1,10 @@
+/*3 Crea una función esPrimo que tome un número como parámetro y devuelva true si es
+primo y false en caso contrario. Use la función para indicar si un número es primo,
+mostrando el mensaje “El número es Primo” o “El número no es Primo” según el caso.
+Ejemplo:
+Entrada: 4 Salida: “El número no es Primo”
+Entrada: 5 Salida: “El número es Primo”
+*/
 #include <iostream>
 using namespace std;
 bool esPrimo(int num, int i, bool resp){
