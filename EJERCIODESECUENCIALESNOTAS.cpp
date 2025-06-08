@@ -8,11 +8,15 @@ int main(){
 	
 	cout<<"Digite la calificacion de conocimiento: "; cin>>EC;
 	while(EC > 20){
-		cout<<"Nota invalida digite nuevamente la nota: ";
+		cout<<"Nota invalida, digite nuevamente la nota de conocimiento: ";
 		cin>>EC;
 	}
 	
-	
+	cout<<"Digite la calificacion de desempenio: "; cin>>ED;
+	while(ED > 20){
+		cout<<"Nota invalida, digite nuevamente la nota de desempenio: ";
+		cin>>ED;
+	}
 	
 	return 0;
 }
